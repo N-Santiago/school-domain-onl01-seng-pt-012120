@@ -15,5 +15,8 @@ class School
     @roster[grade] << student_name
   end #this code will make the program able to add both student name and grade 
   end 
+  
+  def grade(number)
+    
     
 end 
