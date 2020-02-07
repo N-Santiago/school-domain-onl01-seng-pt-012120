@@ -20,5 +20,7 @@ class School
     @roster[grade] #retrieve students from an specific grade 
   end 
   
+  def sort(student_name, grade)
+    @roster.sort 
   
 end 
