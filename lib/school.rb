@@ -20,7 +20,7 @@ class School
     @roster[grade] #retrieve students from an specific grade 
   end 
   
-  def sort(student_name, grade)
+  def sort
     @roster.each do |grade, student_name|
       @roster[grade] = student_name.sort 
     end 
