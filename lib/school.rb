@@ -17,6 +17,8 @@ class School
   end 
   
   def grade(grade)
-    @roster[grade]
+    @roster[grade] #retrieve students from an specific grade 
   end 
+  
+  
 end 
