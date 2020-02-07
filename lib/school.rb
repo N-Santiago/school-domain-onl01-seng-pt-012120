@@ -13,7 +13,7 @@ class School
   else
     @roster[grade] = []
     @roster[grade] << student_name
-  end
+  end #this code will make the program able to add both student name and grade 
   end 
     
 end 
